@@ -11,6 +11,8 @@ public class TestFileRead {
             String contents = new String(Files.readAllBytes(Paths.get("gusInfoGraphic.xml")));
             System.out.println("ZAWARTOŚĆ PLIKU  gusInfoGraphic.xml");
             System.out.print(contents);
+
+
         }
         catch (IOException e){
             System.out.println("Błąd wczytywania pliku gusInfoGraphic.xml +> "+ e.getLocalizedMessage());
