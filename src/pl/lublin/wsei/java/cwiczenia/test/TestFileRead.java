@@ -15,6 +15,7 @@ public class TestFileRead {
         catch (IOException e){
             System.out.println("Błąd wczytywania pliku gusInfoGraphic.xml +> "+ e.getLocalizedMessage());
             e.printStackTrace();
+            //Komentarz w TestFileRead
 
         }
     }
